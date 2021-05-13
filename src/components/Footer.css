@@ -1,0 +1,31 @@
+.footer {
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.footer-container {
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  padding: 1rem;
+}
+
+.footer-container > p {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.footer-icon {
+  color: black;
+  margin: 0 2rem 0 2rem;
+}

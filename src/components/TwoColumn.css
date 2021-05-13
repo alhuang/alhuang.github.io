@@ -1,0 +1,32 @@
+.container {
+  max-width: 1260px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.right {
+  width: 50%;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .right {
+    width: 100%;
+    margin-left: 0px;
+  }
+}

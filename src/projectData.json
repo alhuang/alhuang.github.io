@@ -1,0 +1,265 @@
+{
+  "goshen": {
+    "src": "/images/goshen/goshen-mockup.png",
+    "text": "Goshen Hair Salon",
+    "label": "Responsive Web Design",
+    "description": "Goshen Hair Salon is a local hair salon in the Seattle metropolitan area. They are a small local business that does not have a lot of time to upkeep their website, leading it to be quite outdated and not optimized for mobile. They are seeking to improve the visibility of their salon through a website redesign with easy user experience in mind. In addition, they are looking to add an online booking feature to their website, so their clients can have full control of setting up their appointments online without the need to make a call.",
+    "path": "/goshen",
+    "role": "UI/UX Designer",
+    "timeline": "80 hours",
+    "skills": "",
+    "projectDescription": "Lorem ipsum dolor sit amet",
+    "projectGoals": "",
+    "content": [
+      {
+        "stepTitle": "Research",
+        "sections": [
+          {
+            "sectionTitle": "Competitive Analysis",
+            "sectionBody_1": "In order to understand the market space, I did some competitive analysis of various hair salon websites. These ranged from big chains to small local hair salons. Many of the websites varied quite a bit regarding the kind of content and features they have on their site. Some websites included info about each of their stylists, while others did not. Some sites had online stores and had some sort of online booking service. A list of services with prices and contact info are what each of these websites have in common.",
+            "sectionImageSrc_1": "images/goshen/goshen-competitive-analysis.png"
+          },
+          {
+            "sectionTitle": "User Interviews",
+            "sectionBody_1": "Because many of these hair salons varied in their content, I conducted some user interviews in order to better understand what kind of content is most important for users when visiting a hair salon website. I also wanted to understand how users were booking their hair services and if there were any frustrations with the process. The participants were between 24-30 years old, and they all frequented a hair salon ranging from once every two weeks to once every couple months.",
+            "sectionBody_2": "For booking appointments, only one participant booked through an online service, while others mainly booked through calling or texting. For the participants booking through a call or text, I found that they experienced a lot of frustrations because of how long the booking process took. They said there's a lot of back and forth in communication in order to find a time that worked for both of them. Each of them wished that their hair salon provided some kind of online booking service. For the one participant that does use an online booking service, her main frustration was that she had to constantly restart the booking process if she made some kind of mistake. Additionally, there wasn't a lot of information about the services in the booking sections which often led to her selecting the wrong one.",
+            "sectionBody_3": "I also found that all the participants typically go to the same place for their services. Once they found a place they liked, they don't switch unless they moved to another city. The main reason they keep returning is because they can develop a rapport with a stylist, so when they return the stylists already knows the history of the hair and how they normally like it cut. Additionally, other than the one participant that books online, everyone did not ever use their hair salon's website, except for maybe once before their first visit. With this info, it is clear that the majority of users accessing the site will be new potential customers. So it is crucial that the website can provide them with all the information they need to get them to book an appointment."
+          }
+        ]
+      },
+      {
+        "stepTitle": "Define",
+        "sections": [
+          {
+            "sectionTitle": "Persona",
+            "sectionBody_1": "Based on the data I got from the research phase, I created a persona, Alice Wang, to represent a part of our target users. By creating a fictional persona, I was able to personify the needs and wants of a portion of the target users into a single person. I can then focus my designs into solving the problems of Alice Wang, which ends up solving the problems for the target users.",
+            "sectionImageSrc_1": "images/goshen/goshen-persona.png"
+          },
+          {
+            "sectionTitle": "Building a task flow and user flow",
+            "sectionBody_1": "After creating my persona, I moved on to creating task flows and user flows. I thought about the main tasks that my persona would do when using a site like this and created task flows for them. As a potential new customer, the main tasks Alice would be finding out more about the services and booking. Creating these flows helped me understand how users might navigate and use the site, and helped me focus on creating an optimized experience for the users. The user flow helped me understand how a user might navigate through the site and see areas that may cause some friction.",
+            "sectionImageSrc_1": "images/goshen/goshen-taskflow.jpg",
+            "sectionImageSrc_2": "images/goshen/goshen-userflow.png"
+          }
+        ]
+      },
+      {
+        "stepTitle": "Design",
+        "sections": [
+          {
+            "sectionTitle": "Wireframes",
+            "sectionBody_1": "Moving on to the design phase, I created some low-fidelity wireframes for mobile, tablet, and desktop. Because all my users typically booked through their phones, I approached the mobile design first. Initially, I was going to create separate pages for the services and stylists; however, there wouldn't be whole lot of content on each of those pages. By moving everything to the homepage, user's can easily navigate the site by scrolling instead of clicking back and forth between pages. From the user interviews, it was important that there was information about the services on the page. I chose to have that info hidden under a More Info so that the info wouldn't crowd the page, but users would still have access to it. For selecting time and date, participants from the user interviews mentioned frustration about having a lot of back and forth in order to find an available time. I tried to alleviate those frustrations by listing out the available date and times and prevent users from selecting unavailable dates.",
+            "sectionImageRow": [
+              "images/goshen/goshen-wireframe1.png",
+              "images/goshen/goshen-wireframe2.png",
+              "images/goshen/goshen-wireframe3.png",
+              "images/goshen/goshen-wireframe4.png",
+              "images/goshen/goshen-wireframe5.png"
+            ]
+          },
+          {
+            "sectionTitle": "Branding",
+            "twoColumn_1_left": {
+              "body": "With the redesign, I was also tasked with rebranding the site. Beginning with the font, I decided to go with a Work Sans font to have a more modernized look. I think it also pairs quite nicely with the script logo. I wanted the site to be mostly black and white as it conveys a sense of elegance which as a hair salon, is exactly the kind of atmosphere I wanted for the site. In order for CTAs to be more noticeable and contrast with the rest of the site, I chose the maroonish color. I chose this color because it evokes warmth and excitement.",
+              "imgSrc": "images/goshen/goshen-branding.png"
+            }
+          },
+          {
+            "sectionTitle": "UI Kit",
+            "twoColumn_1_right": {
+              "body": "Before moving on to the high-fidelity designs, I needed to create a UI kit to help keep all of the UI elements consistent across the site. Using my wireframes, I was able to figure the kinds of UI elements I would need for the site. Creating the UI Kit helped bring the design to life as I can see each UI element in its various states. Additionally, the UI kit helped with the prototypes as it helped the site look and behave more like the final product.",
+              "imgSrc": "images/goshen/goshen-ui-kit.png"
+            }
+          },
+          {
+            "sectionTitle": "Hi-fi Designs",
+            "sectionBody_1": "With the style guide and the UI kit complete, it's time take all of that and create some hi-fi designs.",
+            "sectionImageSrc_1": ""
+          }
+        ]
+      },
+      {
+        "stepTitle": "Test",
+        "sections": [
+          {
+            "sectionTitle": "Usability Testing",
+            "sectionBody_1": "After creating the high-fidelity designs, I wanted to test the design. I wanted to make sure the users, as a potential new client, are getting the information they need. I also wanted to test the booking process and make sure there aren't any confusions or struggles throughout the process. I gathered 4 participants to test the prototype I created in Figma.",
+            "sectionImageSrc_1": ""
+          }
+        ]
+      }
+    ]
+  },
+  "netflix": {
+    "src": "images/netflix/netflix-hifi4.png",
+    "text": "Netflix Watch Party",
+    "label": "Adding A New Feature",
+    "path": "/netflix-watch-party",
+    "role": "UI/UX Designer",
+    "timeline": "80 hours",
+    "skills": "",
+    "projectDescription": "Lorem ipsum dolor sit amet",
+    "projectGoals": "",
+    "content": [
+      {
+        "stepTitle": "Research",
+        "sections": [
+          {
+            "sectionTitle": "Competitive Analysis",
+            "sectionBody_1": "Before beginning this project, I already knew there were some web extensions that helped users host watch parties, but after some research I found that some of the other big streaming services have recently implemented a watch party feature. Thus, I conducted a competitive analysis amongst the various streaming services, as well as the web extensions, in order to identify the strengths and weaknesses between each of the services, which will later help inform my design decisions. My findings can be seen below.",
+            "sectionImageSrc_1": "images/netflix/netflix-competitive-analysis.png"
+          },
+          {
+            "sectionTitle": "User Interviews",
+            "sectionBody_1": "In order to understand how users would be using a watch party feature, I conducted some user interviews in order to identify motivations for having watch parties and any frustrations they experience. The participants were all in their mid-twenties, and they all did some kind of online watch party a few times a month. Here were my key findings:"
+          }
+        ]
+      },
+      {
+        "stepTitle": "Define",
+        "sections": [
+          {
+            "sectionTitle": "Persona",
+            "sectionBody_1": "Based on the data I got from the research phase, I created a persona, Mark Wardell, to represent a part of our target users.",
+            "sectionImageSrc_1": "images/netflix/netflix-persona.png"
+          },
+          {
+            "sectionTitle": "Building a task flow and user flow",
+            "sectionBody_1": "After creating my persona, I moved on to creating task flows and user flows. I focused mainly on the tasks of setting up and joining the watch party. As a user that wants to use the watch party feature, they will have to frequently go through these steps, so mapping out each of these flows will help me create a frictionless experience for the users.",
+            "sectionImageSrc_1": "images/netflix/netflix-flows.png"
+          }
+        ]
+      },
+      {
+        "stepTitle": "Design",
+        "sections": [
+          {
+            "sectionTitle": "Wireframes",
+            "sectionBody_1": "Moving on to the design phase, I created some low-fidelity wireframes for desktop because Netflix wants to experiment with this feature on their desktop site first before moving on to their mobile app and TV apps. My goal for the design was to make it easy and simply to setup a watch party. I began by adding a watch party icon next to the play button of a show or movie to begin setting up a watch party. Upon clicking the watch party icon, it will bring you to the next screen where you have some options you can set for the watch party. After creating the watch party, you will be prompted with a URL to share with your friends. With a URL, it will be extremely easy for a user to join a watch party as all they have to do is access the URL and they will automatically be placed into the watch party. I chose to keep the chat small and off to the side, so that users can keep it open while watching the stream, and it won't take up too much space. Users may also minimize the chat if they find it distracting. Because participants from the user interviews expressed frustration of having to use separate devices or applications for video/audio calling, I integrated those features as part of the watch party experience.",
+            "sectionImageSrc_1": "images/netflix/netflix-wireframe1.png",
+            "sectionImageSrc_2": "images/netflix/netflix-wireframe2.png",
+            "sectionImageSrc_3": "images/netflix/netflix-wireframe3.png"
+          },
+          {
+            "sectionTitle": "Style Guide and UI Kit",
+            "sectionBody_1": "As this is going to be a new feature of Netflix, I needed to follow the same style as the rest of the site for the new feature. Thus, I created this style guide to help me maintain the same style for the watch party feature. I recreated many of the UI elements and icons that I would need for the design. For the font, I had to look for an alternative font due to the real font, \"Netflix Sans\", being proprietary and unavailable to me. I settled with Proxima Nova as that looked extremely similar to Netflix Sans.",
+            "sectionImageSrc_1": "images/netflix/netflix-style-guide.png"
+          },
+          {
+            "sectionTitle": "Hi-fi Design",
+            "sectionBody_1": "With the style guide and wireframes complete, I moved on to create the high fidelity designs.",
+            "sectionImageSrc_1": "images/netflix/netflix-hifi.png",
+            "sectionImageSrc_2": "images/netflix/netflix-hifi2.png",
+            "sectionImageSrc_3": "images/netflix/netflix-hifi3.png",
+            "sectionImageSrc_4": "images/netflix/netflix-hifi4.png"
+          }
+        ]
+      },
+      {
+        "stepTitle": "Test",
+        "sections": [
+          {
+            "sectionTitle": "Usability Testing",
+            "sectionBody_1": "After creating the high-fidelity designs, I wanted to conduct a usability test to make sure that hosting and joining a watch party was intuitive and easy. I gathered 3 participants to test using a prototype I built on Figma.",
+            "sectionImageSrc_1": ""
+          }
+        ]
+      }
+    ]
+  },
+  "peregrine": {
+    "src": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2989&q=80",
+    "text": "Peregrine",
+    "label": "Mobile App Design",
+    "path": "/peregrine",
+    "role": "UI/UX Designer",
+    "timeline": "80 hours",
+    "skills": "",
+    "projectDescription": "Peregrine is a mobile app that makes travel planning easy. With Peregrine, you can search for activities, add them to your trip, and then Peregrine will help create an optimized itinerary based on your preferences. Peregrine makes sure the hard stuff is done for you and keeps you focused on having fun abroad.",
+    "projectGoals": "",
+    "content": [
+      {
+        "stepTitle": "Research",
+        "sections": [
+          {
+            "sectionTitle": "Competitive Analysis",
+            "sectionBody_1": "I began my research by doing a competitive analysis. I found some services that are typically used by travelers for discovering activities and planning their vacations. Amongst these services, only one service had the ability to automatically generate an itinerary for you. However, it did not seem like it tried to optimize the schedule by taking into account each activities' location. The other services offered the ability to create an itinerary and schedule activities; however, it had to all be done manually.",
+            "sectionImageSrc_1": "images/peregrine/peregrine-competitive-analysis.png"
+          },
+          {
+            "sectionTitle": "User Interviews",
+            "sectionBody_1": "Next, I conducted some user interviews in order to understand how people are planning their vacations, learn their motivations and frustrations, and discern how Peregrine could bring value to them. For the user interview, I interviewed 3 people aged between 20 and 30. They all traveled for vacations around 2 to 3 times a year.\nHere were my key findings:"
+          }
+        ]
+      },
+      {
+        "stepTitle": "Define",
+        "sections": [
+          {
+            "sectionTitle": "Persona",
+            "sectionBody_1": "Based on the data I got from the research phase, I created a persona, Sara Malone, to represent a part of our target users.",
+            "sectionImageSrc_1": "images/peregrine/peregrine-persona.png"
+          },
+          {
+            "sectionTitle": "Building a task flow and user flow",
+            "sectionBody_1": "After creating my persona, I moved on to creating task flows and user flows. As the core functionality of the app is to be able to generate an itinerary, I focused the task flow and user flows on this task. With these flows, I was able to better understand how a user might navigate through the application, and with that knowledge help with the design and create a seamless experience for the user.",
+            "sectionImageSrc_1": "images/peregrine/peregrine-flows.png"
+          }
+        ]
+      },
+      {
+        "stepTitle": "Design",
+        "sections": [
+          {
+            "sectionTitle": "Wireframes",
+            "sectionBody_1": "Moving on to the design phase, I began constructing some wireframes for Peregrine. While creating the wireframes, I focused on the trips, activities, and the itinerary screen, as those screens focus on the main functionality of the application. For the activities screen, because many of the participants from the user interviews expressed frustration from searching through many different sites to find information, I tried to congregate all of the relevant info on to that screen. For the itinerary screen, that is the bread and butter of the app, as users will reference that screen multiple times while on their vacation. I wanted to provide users a clear schedule for the day, so I based the design much like a typical calendar app as that is something users would be familiar with and make it easy to digest for them.",
+            "sectionImageRow": [
+              "images/goshen/goshen-wireframe1.png",
+              "images/goshen/goshen-wireframe2.png",
+              "images/goshen/goshen-wireframe3.png",
+              "images/goshen/goshen-wireframe4.png",
+              "images/goshen/goshen-wireframe5.png"
+            ]
+          },
+          {
+            "sectionTitle": "Style Guide",
+            "twoColumn_1_left": {
+              "body": "Next, I spent some time working on creating a logo for Peregrine as well as establish a brand style guide. For the logo, I went with a simplistic geometric design to match with the simplicity of the application. While creating the color palette, I was looking for some colors to help evoke these feelings: freedom, adventure, and fun. From color psychology, orange seemed to communicate those emotions. For the typography, I picked Proxima Nova, as it was a nice modern and geometric font.",
+              "imgSrc": "images/peregrine/peregrine-style-guide.png"
+            }
+          },
+          {
+            "sectionTitle": "UI Kit",
+            "twoColumn_1_right": {
+              "body": "Before creating the hi-fi designs, I spent some time creating the various UI elements on the application. Referencing the style guide as well as the elements from the wireframes, I created these elements.",
+              "imgSrc": "images/peregrine/peregrine-ui-kit.png"
+            }
+          },
+          {
+            "sectionTitle": "Hi-fi Designs",
+            "sectionBody_1": "With the style guide and wireframes complete, I moved on to create the high fidelity designs.",
+            "sectionImageSrc_1": ""
+          }
+        ]
+      },
+      {
+        "stepTitle": "Test",
+        "sections": [
+          {
+            "sectionTitle": "Usability Testing",
+            "sectionBody_1": "After creating the high-fidelity designs, I conducted a usability test in order to see how potential users would use the application and learn about areas that may be confusing or cause frustration.",
+            "sectionImageSrc_1": ""
+          }
+        ]
+      },
+      {
+        "stepTitle": "Next Steps",
+        "sections": [
+          {
+            "sectionBody_1": "Overall, I believe the design I created will serve as a solid base for the Netflix Watch Party feature. The usability test brought out many great ideas as potential features that can be explored in order to help improve users' experiences. Some ideas to explore next are different layout options, including transparent chat and video overlays on top of the video player, and chat notification systems while the video is minimized.\nAdditionally, due to some limitations of the prototype, I don't think the actual watch party viewing experience was accurately tested. Users were not able to watch a real stream nor were they able to realistically chat and use audio and video features. Next, I would like to work on building a prototype with all of these capabilities as a way to truly test users' experiences with the actual viewing part of the feature. This way I can assess how users are using these chatting features and make improvements based upon that."
+          }
+        ]
+      }
+    ]
+  }
+}

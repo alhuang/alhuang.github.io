@@ -1,0 +1,26 @@
+.images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.image-item {
+  margin: 0rem 0 2rem 0;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  border: 1px solid rgb(230, 230, 230);
+  margin: 0.5rem;
+  flex: 1 1 auto;
+}
+
+.images-container .image-item:first-child {
+  margin-left: 0 !important;
+}
+
+.images-container .image-item:last-child {
+  margin-right: 0 !important;
+}
+
+.image-item > img {
+  width: 100%;
+}
