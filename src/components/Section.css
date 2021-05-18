@@ -1,6 +1,11 @@
+/* .section-container:not(:last-child) {
+  margin-bottom: 4rem;
+} */
+
 .section-container {
-  margin-bottom: 6rem;
+  padding: 1.5rem 0 2rem 0;
 }
+
 .subsection-title {
   margin-bottom: 1.5rem;
 }

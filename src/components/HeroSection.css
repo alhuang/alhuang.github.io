@@ -24,7 +24,7 @@ video {
 }
 
 .hero-container > p {
-  margin-top: 8px;
+  margin-top: 5rem;
   color: #fff;
   font-size: 32px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -32,7 +32,7 @@ video {
 }
 
 .hero-btns {
-  margin-top: 6px;
+  margin-top: 2rem;
 }
 
 .hero-btns .btn {

@@ -42,6 +42,9 @@
   margin: 0;
   padding: 0;
   font-family: "PT Sans", sans-serif;
+  font-size: 17px;
+  line-height: 32px;
+  color: rgb(60, 60, 60);
 }
 
 .home {
@@ -52,7 +55,46 @@
   font-size: 3rem;
 }
 
+.peregrine {
+  background: linear-gradient(
+    219deg,
+    rgba(246, 114, 128, 1) 9%,
+    rgba(248, 177, 149, 1) 80%
+  );
+}
+
+.netflix {
+  background: #181818;
+}
+
+.goshen {
+  background: #914550;
+}
+
+.peregrine-text {
+  color: rgba(246, 114, 128, 1);
+}
+
+.netflix-text {
+  color: #e50914;
+}
+
+.goshen-text {
+  color: #914550;
+}
+
 p {
-  font-size: 17px;
-  line-height: 32px;
+  white-space: pre-wrap;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
 }

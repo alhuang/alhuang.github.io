@@ -4,12 +4,13 @@
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  padding: 3rem 1rem 0rem 1rem;
+  padding: 1.5rem 1rem 2rem 1rem;
 }
 
 .section-title {
   text-align: left;
-  margin-bottom: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
 }
 
 .light-bg {

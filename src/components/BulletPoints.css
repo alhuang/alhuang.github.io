@@ -1,0 +1,11 @@
+.bulletpoints {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 2rem;
+}
+
+.bulletpoint-item {
+  margin-bottom: 1rem;
+  text-indent: -1.4rem;
+  padding-left: 1rem;
+}

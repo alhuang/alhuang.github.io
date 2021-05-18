@@ -3,8 +3,8 @@ import "./ProjectHero.css";
 
 function ProjectHero(props) {
   return (
-    <div className="project-hero-container">
-      <div className="project-hero-wrapper">
+    <div className={`project-hero ${props.project}`}>
+      <div className="project-hero-container">
         <img src={props.imgSrc} />
       </div>
     </div>

@@ -6,7 +6,7 @@ import { Button } from "./Button";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/bgvideo.mp4" autoPlay loop muted />
+      <video src="/bgvideo_1.mp4" autoPlay loop muted />
       <h1>Andrew Huang</h1>
       <p>Hello</p>
       <div className="hero-btns">

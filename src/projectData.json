@@ -1,18 +1,19 @@
 {
   "goshen": {
     "src": "/images/goshen/goshen-mockup.png",
+    "cardImg": "images/goshen/goshen-mockup.png",
     "text": "Goshen Hair Salon",
     "label": "Responsive Web Design",
     "description": "Goshen Hair Salon is a local hair salon in the Seattle metropolitan area. They are a small local business that does not have a lot of time to upkeep their website, leading it to be quite outdated and not optimized for mobile. They are seeking to improve the visibility of their salon through a website redesign with easy user experience in mind. In addition, they are looking to add an online booking feature to their website, so their clients can have full control of setting up their appointments online without the need to make a call.",
-    "path": "/goshen",
+    "path": "/goshen#top",
     "role": "UI/UX Designer",
     "timeline": "80 hours",
     "skills": "",
     "projectDescription": "Lorem ipsum dolor sit amet",
-    "projectGoals": "",
+    "projectGoals": "Update the current website to be more modern and appealing to customers, while keeping it responsive, as well as design and add an online booking service.",
     "content": [
       {
-        "stepTitle": "Research",
+        "stepTitle": "01 RESEARCH",
         "sections": [
           {
             "sectionTitle": "Competitive Analysis",
@@ -28,7 +29,7 @@
         ]
       },
       {
-        "stepTitle": "Define",
+        "stepTitle": "02 DEFINE",
         "sections": [
           {
             "sectionTitle": "Persona",
@@ -44,7 +45,7 @@
         ]
       },
       {
-        "stepTitle": "Design",
+        "stepTitle": "03 DESIGN",
         "sections": [
           {
             "sectionTitle": "Wireframes",
@@ -74,17 +75,56 @@
           {
             "sectionTitle": "Hi-fi Designs",
             "sectionBody_1": "With the style guide and the UI kit complete, it's time take all of that and create some hi-fi designs.",
-            "sectionImageSrc_1": ""
+            "sectionImageSrc_1": "images/goshen/goshen-hifi.png"
           }
         ]
       },
       {
-        "stepTitle": "Test",
+        "stepTitle": "04 TEST",
         "sections": [
           {
             "sectionTitle": "Usability Testing",
-            "sectionBody_1": "After creating the high-fidelity designs, I wanted to test the design. I wanted to make sure the users, as a potential new client, are getting the information they need. I also wanted to test the booking process and make sure there aren't any confusions or struggles throughout the process. I gathered 4 participants to test the prototype I created in Figma.",
-            "sectionImageSrc_1": ""
+            "sectionBody_1": "After creating the high-fidelity designs, I wanted to test the design. I wanted to make sure the users, as a potential new client, are getting the information they need. I also wanted to test the booking process and make sure there aren't any confusions or struggles throughout the process. I gathered 4 participants to test the prototype I created in Figma. I had them perform two tasks.\n\n1. You are looking for new hair salon and stumble upon this site\n2. Book an appointment for a Women's Haircut and a Color Process\n\nI chose these tasks in order to assess if the website was providing all of the relevant information that new potential customers might want and need. In addition, I wanted to assess whether the booking process was intuitive and identify any potentially frustrating areas.\nHere were the results:",
+            "sectionBullets_1": [
+              "All participants were confused when selecting multiple services in the booking page",
+              "Some participants went back to the homepage to read about the stylists when selecting a stylist",
+              "Some participants found it frustrating they needed to scroll up from the stylist and service sections in order to book and appointment",
+              "Most participants did not understand some of the services and wished there was more info on the homepage",
+              "The \"Edit Appointment\" button was a point of confusion as the participants thought they already had an appointment booked",
+              "All participants found the calendar widget to be very intuitive and like that it showed only available times and dates"
+            ]
+          },
+          {
+            "sectionTitle": "New Iteration",
+            "sectionBody_1": "The usability test brought up many problems with the current design, so I reviewed the areas that were causing users trouble and redesigned them in order to address their issues.",
+            "sectionIterations_1_col2": [
+              {
+                "imgSrc": "images/goshen/goshen-iteration1.png",
+                "name": "Reschedule Button",
+                "desc": "Because many of the participants were confused by the Edit Appointment button, I made it less prominent to cause less confusion, and I moved it to the landing page, as any users that want to reschedule could find it quickly upon entering the website. Additionally, I removed the cancellation policy information as it is not important until the user gets to the confirmation page."
+              },
+              {
+                "imgSrc": "images/goshen/goshen-iteration2.png",
+                "name": "Services Popup",
+                "desc": "Many of the participants wanted more information about the services on the homepage, so I added a popup modal with the additional information. I chose to have a popup because I didn't want to overload the service section with too much text. Additionally, one participant was found trying to tap on the service for more information during the usability test."
+              }
+            ],
+            "sectionIterations_2_col1": [
+              {
+                "imgSrc": "images/goshen/goshen-iteration3.png",
+                "name": "Reworking Service Selection",
+                "desc": "The services section of the booking process cause a lot of confusion for all of the participants. Their confusion arose when they had to select multiple services across the different sections. After selecting the first service, it wasn't clear that it was selected when adding the second service. While reworking this section, my goals were to make it clear that additional services can be selected, as well as make it clear all the services that have been selected already. I did this by creating an 'Add Another Service' card after making a selection. After selecting that card it will return to the list of services, and the user may select another service. After selecting any service, it will list out all already selected services and allow users to add another service or make any changes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stepTitle": "Final Thoughts",
+        "sections": [
+          {
+            "sectionTitle": "",
+            "sectionBody_1": "After creating the final design, I believe I have achieved the goals outlined in the beginning of the design process. I designed a responsive website for Goshen Hair Salon that provides customers with a smooth and easy online booking process. I also restructured much of the content to hopefully better inform users and attract more customers."
           }
         ]
       }
@@ -92,17 +132,18 @@
   },
   "netflix": {
     "src": "images/netflix/netflix-hifi4.png",
+    "cardImg": "images/netflix/netflix-hifi4.png",
     "text": "Netflix Watch Party",
     "label": "Adding A New Feature",
-    "path": "/netflix-watch-party",
+    "path": "/netflix#top",
     "role": "UI/UX Designer",
     "timeline": "80 hours",
     "skills": "",
     "projectDescription": "Lorem ipsum dolor sit amet",
-    "projectGoals": "",
+    "projectGoals": "Design a watch party feature that will allow users to join and create watch parties with their friends and families.\nDesign a communications feature that will allow users to chat using text, audio, and video.",
     "content": [
       {
-        "stepTitle": "Research",
+        "stepTitle": "01 RESEARCH",
         "sections": [
           {
             "sectionTitle": "Competitive Analysis",
@@ -116,7 +157,7 @@
         ]
       },
       {
-        "stepTitle": "Define",
+        "stepTitle": "02 DEFINE",
         "sections": [
           {
             "sectionTitle": "Persona",
@@ -131,7 +172,7 @@
         ]
       },
       {
-        "stepTitle": "Design",
+        "stepTitle": "03 DESIGN",
         "sections": [
           {
             "sectionTitle": "Wireframes",
@@ -156,30 +197,70 @@
         ]
       },
       {
-        "stepTitle": "Test",
+        "stepTitle": "04 TEST",
         "sections": [
           {
             "sectionTitle": "Usability Testing",
-            "sectionBody_1": "After creating the high-fidelity designs, I wanted to conduct a usability test to make sure that hosting and joining a watch party was intuitive and easy. I gathered 3 participants to test using a prototype I built on Figma.",
-            "sectionImageSrc_1": ""
+            "sectionBody_1": "Next, I conducted a usability test in order to assess the usability of the feature. I wanted to make sure that creating and joining a watch party was easy and intuitive. I gathered 3 participants to test the prototype I created in Figma. I had them perform two tasks.\n\n1. You are hosting a watch party with your friends to watch Ozark\n2. You are joining your friend's watch party to watch Ozark\n\nHere were the results:",
+            "sectionBullets_1": [
+              "100% completion rate, all participants were able to successfully create and join a watch party",
+              "All participants tried to create their watch party from the video player screen at first before realizing there was the icon for it from the show page",
+              "Participants found sharing and sending the URL link to friends easy and straightforward",
+              "Some participants did not like that they were put immediately into the watch party after accessing the URL and want some kind of heads up first",
+              "One participant was unsure is adjusting volume or adding subtitles affect other users",
+              "One participant found it frustrating that they had to open the chat window in order to mute, while they were watching with it minimized"
+            ]
+          },
+          {
+            "sectionTitle": "New Iteration",
+            "sectionBody_1": "Thought the participants were able to create and join a watch party, there were some areas that left participants frustrated or were not every intuitive. With their feedback, I created some new iterations in order to address these areas. Here are some of the main changes I made:",
+            "sectionIterations_1_col2": [
+              {
+                "imgSrc": "images/netflix/netflix-iteration1.png",
+                "name": "Watch Party Icon",
+                "desc": "The usability test revealed some problems with the location of the watch party icon. Despite other competitors having the icon in a similar location, all the participants tried to host their watch party from the video player screen after they selected a show. To them, it felt more intuitive to host after selecting and playing a show. Thus, I moved the icon to the video player to be in line with users' expectations. Though the location seemed strange to me and is inconsistent with similar service, the data from the usability test showed that this was more intuitive to the users."
+              },
+              {
+                "imgSrc": "images/netflix/netflix-iteration2.png",
+                "name": "Mute and Video Controls",
+                "desc": "One participant in the usability test expressed frustration with muting their mic while their chat window was minimized. Because the controls were part of the chat window, they needed to unminimize the chat and then click the mute icon.In order to simplify the muting process, I added mic and video controls the the video player controls while the chat window is minimized. Additionally, I would map these controls to some hotkeys similiarly to how users can pause with the spacebar and fast-forward/rewind with the arrow keys."
+              }
+            ],
+            "sectionIterations_2_col1": [
+              {
+                "imgSrc": "images/netflix/netflix-iteration3.png",
+                "name": "Join Screen",
+                "desc": "Most of the participants expressed discontent that they were taken directly into the watch party after accessing the watch party URL. They mentioned it feeling a bit too sudden, and they weren't aware if video and audio chat was enabled. I created an additional screen that users will reach right before the join the watch party. The screen lets users know what settings have been enabled and gives them time to prepare themselves before entering the watch party. It also gives the user the oppportunity to turn back if they joined by mistake."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stepTitle": "Next Steps",
+        "sections": [
+          {
+            "sectionTitle": "",
+            "sectionBody_1": "Overall, I believe the design I created will serve as a solid base for the Netflix Watch Party feature. The usability test brought out many great ideas as potential features that can be explored in order to help improve users' experiences. Some ideas to explore next are different layout options, including transparent chat and video overlays on top of the video player, and chat notification systems while the video is minimized.\nAdditionally, due to some limitations of the prototype, I don't think the actual watch party viewing experience was accurately tested. Users were not able to watch a real stream nor were they able to realistically chat and use audio and video features. Next, I would like to work on building a prototype with all of these capabilities as a way to truly test users' experiences with the actual viewing part of the feature. This way I can assess how users are using these chatting features and make improvements based upon that."
           }
         ]
       }
     ]
   },
   "peregrine": {
-    "src": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2989&q=80",
+    "src": "images/peregrine/peregrine-hero.png",
+    "cardImg": "images/peregrine/peregrine-card.png",
     "text": "Peregrine",
     "label": "Mobile App Design",
-    "path": "/peregrine",
+    "path": "/peregrine#top",
     "role": "UI/UX Designer",
     "timeline": "80 hours",
-    "skills": "",
-    "projectDescription": "Peregrine is a mobile app that makes travel planning easy. With Peregrine, you can search for activities, add them to your trip, and then Peregrine will help create an optimized itinerary based on your preferences. Peregrine makes sure the hard stuff is done for you and keeps you focused on having fun abroad.",
-    "projectGoals": "",
+    "skills": "Figma",
+    "projectDescription": "Peregrine is a mobile app that makes travel planning easy. With Peregrine, you can search for activities, add them to your trip, and then Peregrine will help create an optimized itinerary based on your preferences. Peregrine makes sure the hard stuff is done for you and keeps you focused on having fun abroad.\n\n<i>This was a concept project made for DesignLab bootcamp.</i>",
+    "projectGoals": "Design a mobile application that allows users to browse cities and activities, create trips, and generate itineraries, in addition to designing a cohesive logo and branding.",
     "content": [
       {
-        "stepTitle": "Research",
+        "stepTitle": "01 RESEARCH",
         "sections": [
           {
             "sectionTitle": "Competitive Analysis",
@@ -188,12 +269,18 @@
           },
           {
             "sectionTitle": "User Interviews",
-            "sectionBody_1": "Next, I conducted some user interviews in order to understand how people are planning their vacations, learn their motivations and frustrations, and discern how Peregrine could bring value to them. For the user interview, I interviewed 3 people aged between 20 and 30. They all traveled for vacations around 2 to 3 times a year.\nHere were my key findings:"
+            "sectionBody_1": "Next, I conducted some user interviews in order to understand how people are planning their vacations, learn their motivations and frustrations, and discern how Peregrine could bring value to them. For the user interview, I interviewed 3 people aged between 20 and 30. They all traveled for vacations around 2 to 3 times a year.\n\nHere were my key findings:",
+            "sectionBullets_1": [
+              "There was a spectrum of kinds of travelers, on one end it was the very spontaneous traveler that do very minimal amounts of planning. On the other end, there were the travelers that do large amounts of research on activities and heavy amounts of planning. Travelers usually fit somewhere in between these two ends.",
+              "Flexibility was important to all participants, as there are always unexpected events while traveling.",
+              "All participants used multiple different sites for finding activities to do; they typically use city guide sites to find activities, and then Yelp or TripAdvisor to look at reviews. They all were a bit frustrated by this and wished all the information was available in a single place.",
+              "One participant, who is a very spontaneous traveler, likes to plan on the spot, so wants an easy way to find nearby activities."
+            ]
           }
         ]
       },
       {
-        "stepTitle": "Define",
+        "stepTitle": "02 DEFINE",
         "sections": [
           {
             "sectionTitle": "Persona",
@@ -208,17 +295,16 @@
         ]
       },
       {
-        "stepTitle": "Design",
+        "stepTitle": "03 DESIGN",
         "sections": [
           {
             "sectionTitle": "Wireframes",
             "sectionBody_1": "Moving on to the design phase, I began constructing some wireframes for Peregrine. While creating the wireframes, I focused on the trips, activities, and the itinerary screen, as those screens focus on the main functionality of the application. For the activities screen, because many of the participants from the user interviews expressed frustration from searching through many different sites to find information, I tried to congregate all of the relevant info on to that screen. For the itinerary screen, that is the bread and butter of the app, as users will reference that screen multiple times while on their vacation. I wanted to provide users a clear schedule for the day, so I based the design much like a typical calendar app as that is something users would be familiar with and make it easy to digest for them.",
-            "sectionImageRow": [
-              "images/goshen/goshen-wireframe1.png",
-              "images/goshen/goshen-wireframe2.png",
-              "images/goshen/goshen-wireframe3.png",
-              "images/goshen/goshen-wireframe4.png",
-              "images/goshen/goshen-wireframe5.png"
+            "sectionImageRow_1_img4": [
+              "images/peregrine/peregrine-wireframe1.png",
+              "images/peregrine/peregrine-wireframe2.png",
+              "images/peregrine/peregrine-wireframe3.png",
+              "images/peregrine/peregrine-wireframe4.png"
             ]
           },
           {
@@ -238,17 +324,46 @@
           {
             "sectionTitle": "Hi-fi Designs",
             "sectionBody_1": "With the style guide and wireframes complete, I moved on to create the high fidelity designs.",
-            "sectionImageSrc_1": ""
+            "sectionImageRow_1_img6": [
+              "images/peregrine/peregrine-hifi1.png",
+              "images/peregrine/peregrine-hifi2.png",
+              "images/peregrine/peregrine-hifi3.png",
+              "images/peregrine/peregrine-hifi4.png",
+              "images/peregrine/peregrine-hifi5.png",
+              "images/peregrine/peregrine-hifi6.png"
+            ]
           }
         ]
       },
       {
-        "stepTitle": "Test",
+        "stepTitle": "04 TEST",
         "sections": [
           {
             "sectionTitle": "Usability Testing",
             "sectionBody_1": "After creating the high-fidelity designs, I conducted a usability test in order to see how potential users would use the application and learn about areas that may be confusing or cause frustration.",
-            "sectionImageSrc_1": ""
+            "sectionBullets_1": [
+              "100% completion rate, all participants were able to successfully create a trip",
+              "2 out of the 3 participants wanted additional information on the activities page, such as potential cost, as well as a map",
+              "One participant was a bit confused after tapping the 'Add Activities' button brought him to the cities page, as he felt that screen was more for browsing, instead of adding",
+              "Initially, one participant expected 'Add Activity' to be for manually adding activities rather than searching",
+              "All participants really liked the itinerary view, and how easy it was to see upcoming activities for the day and week. One participant mentioned that they'd like the ability to have a '3-day' or 'week' view",
+              "All participants expressed concerns about how the app was generating the itinerary; they all wanted ability to add parameters to help optimize the schedule"
+            ]
+          },
+          {
+            "sectionTitle": "New Iteration",
+            "sectionIterations_1_col2": [
+              {
+                "imgSrc": "images/peregrine/peregrine-hifi5.png",
+                "name": "Adding Activities",
+                "desc": "One participant from the usability test found it confusing that tapping the add activity button brought him to the city page. To him, the city page was a page more focused on browsing as opposed to adding activities. In order to make it clearer that the screen is for adding activities, I removed the city info as that was found to be not useful here. I added the trip information at the top, so that it is clearer that the actions here will be impacting that trip."
+              },
+              {
+                "imgSrc": "images/peregrine/peregrine-next-iteration2.png",
+                "name": "Additional Trip Parameters",
+                "desc": "All of the participants mentioned wanting the ability to add some parameters, such as when they want to start and end their day, before the itinerary gets generated. So, before the app schedules the activities, it will prompt you with the screen above, where users may input when they want to start and end their days. I added some additional parameters such as where they are staying (so the app can plan for travel time to the first activity) and the pace at which the user might travel (so the app will allow for more or less time than typical at each activity)."
+              }
+            ]
           }
         ]
       },
@@ -256,7 +371,8 @@
         "stepTitle": "Next Steps",
         "sections": [
           {
-            "sectionBody_1": "Overall, I believe the design I created will serve as a solid base for the Netflix Watch Party feature. The usability test brought out many great ideas as potential features that can be explored in order to help improve users' experiences. Some ideas to explore next are different layout options, including transparent chat and video overlays on top of the video player, and chat notification systems while the video is minimized.\nAdditionally, due to some limitations of the prototype, I don't think the actual watch party viewing experience was accurately tested. Users were not able to watch a real stream nor were they able to realistically chat and use audio and video features. Next, I would like to work on building a prototype with all of these capabilities as a way to truly test users' experiences with the actual viewing part of the feature. This way I can assess how users are using these chatting features and make improvements based upon that."
+            "sectionTitle": "",
+            "sectionBody_1": "In conclusion, I think my design for Peregrine will serve as a great base for the app. The application achieves its main goal of creating an optimized itinerary for its users; however, there is still much to explore with the app. Some additional features that I would like to explore in the future is the ability to automatically add activities for the user using prior trips as metrics or some parameters in order to select activities that the user would enjoy. A feature like this would further cut down and simplify trip planning."
           }
         ]
       }

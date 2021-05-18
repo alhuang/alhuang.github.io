@@ -6,6 +6,8 @@ import TwoColumn from "./TwoColumn";
 import ImageRow from "./ImageRow";
 import ProjectSection from "./ProjectSection";
 import projectDataJSON from "../projectData.json";
+import BulletPoints from "./BulletPoints";
+import Iterations from "./Iterations";
 
 function Content(props) {
   const content = projectDataJSON[props.project]["content"];
@@ -15,6 +17,7 @@ function Content(props) {
         <ProjectSection
           sectionTitle={step["stepTitle"]}
           bg={index % 2 ? "" : "light-bg"}
+          proj={props.project}
         >
           {step["sections"].map((section) => (
             <Section subsectionTitle={section["sectionTitle"]}>
@@ -33,7 +36,18 @@ function Content(props) {
                     />
                   );
                 else if (component[0] === "sectionImageRow")
-                  return <ImageRow images={section[key]} />;
+                  return (
+                    <ImageRow images={section[key]} className={component[2]} />
+                  );
+                else if (component[0] === "sectionBullets")
+                  return <BulletPoints bullets={section[key]} />;
+                else if (component[0] === "sectionIterations")
+                  return (
+                    <Iterations
+                      iterations={section[key]}
+                      className={component[2]}
+                    />
+                  );
               })}
             </Section>
           ))}

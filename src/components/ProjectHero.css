@@ -1,21 +1,22 @@
-.project-hero-container {
-  height: auto;
+.project-hero {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #000;
 }
 
-.project-hero-wrapper {
+.project-hero-container {
   max-width: 1260px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 100%;
 }
 
-.project-hero-wrapper > img {
-  height: auto;
-  background-color: transparent;
+.project-hero-container > img {
+  width: 100%;
+}
+
+.peregrine img {
+  margin: 0 auto 0 auto;
+  display: block;
+  width: 60%;
 }

@@ -9,10 +9,15 @@ function Netflix() {
   const content = projectDataJSON["netflix"];
   return (
     <>
-      <ProjectHero imgSrc={content["src"]} />
+      <ProjectHero imgSrc={content["src"]} project={"netflix"} />
       <ProjectHeader
         projectTitle={content["text"]}
+        label={content["label"]}
+        role={content["role"]}
+        timeline={content["timeline"]}
+        skills={content["skills"]}
         projectSummary={content["description"]}
+        projectGoals={content["projectGoals"]}
       />
       <Content project="netflix" />
       <Footer />

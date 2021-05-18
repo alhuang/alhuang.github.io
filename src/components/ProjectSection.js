@@ -5,7 +5,9 @@ function ProjectSection(props) {
   return (
     <div className={`project-section ${props.bg}`}>
       <div className="project-section-container">
-        <h1 className="section-title">{props.sectionTitle}</h1>
+        <h3 className={`section-title ${props.proj}-text`}>
+          {props.sectionTitle}
+        </h3>
         {props.children}
       </div>
     </div>
