@@ -44,7 +44,9 @@
   font-family: "PT Sans", sans-serif;
   font-size: 17px;
   line-height: 32px;
-  color: rgb(60, 60, 60);
+}
+p {
+  color: rgb(36, 36, 36);
 }
 
 .home {

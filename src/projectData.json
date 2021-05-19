@@ -1,14 +1,14 @@
 {
   "goshen": {
     "src": "/images/goshen/goshen-mockup.png",
-    "cardImg": "images/goshen/goshen-mockup.png",
+    "cardImg": "/images/goshen/goshen-mockup.png",
     "text": "Goshen Hair Salon",
     "label": "Responsive Web Design",
     "description": "Goshen Hair Salon is a local hair salon in the Seattle metropolitan area. They are a small local business that does not have a lot of time to upkeep their website, leading it to be quite outdated and not optimized for mobile. They are seeking to improve the visibility of their salon through a website redesign with easy user experience in mind. In addition, they are looking to add an online booking feature to their website, so their clients can have full control of setting up their appointments online without the need to make a call.",
     "path": "/goshen#top",
     "role": "UI/UX Designer",
     "timeline": "80 hours",
-    "skills": "",
+    "skills": "User Research, Interaction Design, UI Design, Wireframing, Prototyping, Usability Testing",
     "projectDescription": "Lorem ipsum dolor sit amet",
     "projectGoals": "Update the current website to be more modern and appealing to customers, while keeping it responsive, as well as design and add an online booking service.",
     "content": [
@@ -17,14 +17,14 @@
         "sections": [
           {
             "sectionTitle": "Competitive Analysis",
-            "sectionBody_1": "In order to understand the market space, I did some competitive analysis of various hair salon websites. These ranged from big chains to small local hair salons. Many of the websites varied quite a bit regarding the kind of content and features they have on their site. Some websites included info about each of their stylists, while others did not. Some sites had online stores and had some sort of online booking service. A list of services with prices and contact info are what each of these websites have in common.",
-            "sectionImageSrc_1": "images/goshen/goshen-competitive-analysis.png"
+            "sectionBody_1": "In order to understand the market space, I found various hair salons and did a competitive analysis of their websites. These ranged from big chains to small local hair salons. My goals were to get an idea of any kinds of trends these sites have in common and understand the types of content and features they may share. In regards to content, each website varied quite a bit. Some websites included info about each of their stylists, while others did not. Some sites had online stores or an online booking service. What each of these websites had in common was a section of services and prices and their contact info, which is essential for a site like this.",
+            "sectionImageSrc_1": "/images/goshen/goshen-competitive-analysis.png"
           },
           {
             "sectionTitle": "User Interviews",
-            "sectionBody_1": "Because many of these hair salons varied in their content, I conducted some user interviews in order to better understand what kind of content is most important for users when visiting a hair salon website. I also wanted to understand how users were booking their hair services and if there were any frustrations with the process. The participants were between 24-30 years old, and they all frequented a hair salon ranging from once every two weeks to once every couple months.",
+            "sectionBody_1": "Next, I gathered some users to interview them in order to understand their experiences with hair salon websites. My goals for the interview were to understand what kind of information users need when on theses websites, as well as understand how users are booking their appointments. Additionally, I wanted to see if there was anything frustrating about their experience. I gathered 4 participants between 24-30 years old, and they each frequented a hair salon ranging from once every two weeks to once every couple months.",
             "sectionBody_2": "For booking appointments, only one participant booked through an online service, while others mainly booked through calling or texting. For the participants booking through a call or text, I found that they experienced a lot of frustrations because of how long the booking process took. They said there's a lot of back and forth in communication in order to find a time that worked for both of them. Each of them wished that their hair salon provided some kind of online booking service. For the one participant that does use an online booking service, her main frustration was that she had to constantly restart the booking process if she made some kind of mistake. Additionally, there wasn't a lot of information about the services in the booking sections which often led to her selecting the wrong one.",
-            "sectionBody_3": "I also found that all the participants typically go to the same place for their services. Once they found a place they liked, they don't switch unless they moved to another city. The main reason they keep returning is because they can develop a rapport with a stylist, so when they return the stylists already knows the history of the hair and how they normally like it cut. Additionally, other than the one participant that books online, everyone did not ever use their hair salon's website, except for maybe once before their first visit. With this info, it is clear that the majority of users accessing the site will be new potential customers. So it is crucial that the website can provide them with all the information they need to get them to book an appointment."
+            "sectionBody_3": "Another important thing that I learned was that every participant always goes back to the same hair salon. Once they found a place they liked, they wouldn't switch unless they really had to. The main reason they keep returning is because they can develop a rapport with the stylist, so when they return, the stylists already know the history of the hair and how they like it cut. Additionally, I found that the participants never access their hair salon's websites outside of the time before their first visit, except for the one participant that books their appointments online. With this info, it is clear that a majority os users accessing the site will be new pontential customers, so it is crucial that the website has all the information they need and attract them enough to get them to book an appointment before they move on to the next hair salon."
           }
         ]
       },
@@ -33,13 +33,14 @@
         "sections": [
           {
             "sectionTitle": "Persona",
-            "sectionBody_1": "Based on the data I got from the research phase, I created a persona, Alice Wang, to represent a part of our target users. By creating a fictional persona, I was able to personify the needs and wants of a portion of the target users into a single person. I can then focus my designs into solving the problems of Alice Wang, which ends up solving the problems for the target users.",
-            "sectionImageSrc_1": "images/goshen/goshen-persona.png"
+            "sectionBody_1": "From the data I got from the research phase, I created a persona, Alice Wang, to represent a part of our target users. By creating a fictional persona, I was able to personify the needs and wants of a portion of the target users into a single person. She will be used throughout the entire design process to ensure I'm designing for the users.",
+            "sectionImageSrc_1": "/images/goshen/goshen-persona.png"
           },
           {
             "sectionTitle": "Building a task flow and user flow",
-            "sectionBody_1": "After creating my persona, I moved on to creating task flows and user flows. I thought about the main tasks that my persona would do when using a site like this and created task flows for them. As a potential new customer, the main tasks Alice would be finding out more about the services and booking. Creating these flows helped me understand how users might navigate and use the site, and helped me focus on creating an optimized experience for the users. The user flow helped me understand how a user might navigate through the site and see areas that may cause some friction.",
+            "sectionBody_1": "After creating my persona, I started to think about how my user, Alice might use the website to complete certain tasks. I created multiple task flows to understand the actions and pages the user will go through to complete their tasks.",
             "sectionImageSrc_1": "images/goshen/goshen-taskflow.jpg",
+            "sectionBody_2": "Next, I moved on to understand the possible choices Alice may have when navigating through the site. We can see how each of these decision points affect Alice's journey through the site.",
             "sectionImageSrc_2": "images/goshen/goshen-userflow.png"
           }
         ]
@@ -49,7 +50,7 @@
         "sections": [
           {
             "sectionTitle": "Wireframes",
-            "sectionBody_1": "Moving on to the design phase, I created some low-fidelity wireframes for mobile, tablet, and desktop. Because all my users typically booked through their phones, I approached the mobile design first. Initially, I was going to create separate pages for the services and stylists; however, there wouldn't be whole lot of content on each of those pages. By moving everything to the homepage, user's can easily navigate the site by scrolling instead of clicking back and forth between pages. From the user interviews, it was important that there was information about the services on the page. I chose to have that info hidden under a More Info so that the info wouldn't crowd the page, but users would still have access to it. For selecting time and date, participants from the user interviews mentioned frustration about having a lot of back and forth in order to find an available time. I tried to alleviate those frustrations by listing out the available date and times and prevent users from selecting unavailable dates.",
+            "sectionBody_1": "Moving on to the design phase, I created some low-fidelity wireframes for mobile, tablet, and desktop. Because all my users typically booked through their phones, I approached the mobile design first. Because the site should be simple and easy to navigate, I opted to have all the information on the homepage, so users can easily and quickly find the information they need without having to deal with clicking through multiple pages. For the booking process, many participants expressed frustration with having to deal with a lot of back and forth with the hair salon in order to find an available time. I tried to alleviate those frustrations by listing out the available dates and times and preventing them from selecting an unavailable time.",
             "sectionImageRow": [
               "images/goshen/goshen-wireframe1.png",
               "images/goshen/goshen-wireframe2.png",
@@ -74,7 +75,7 @@
           },
           {
             "sectionTitle": "Hi-fi Designs",
-            "sectionBody_1": "With the style guide and the UI kit complete, it's time take all of that and create some hi-fi designs.",
+            "sectionBody_1": "Mext, it's time to put everything together and create some hi-fi designs.",
             "sectionImageSrc_1": "images/goshen/goshen-hifi.png"
           }
         ]
@@ -124,7 +125,7 @@
         "sections": [
           {
             "sectionTitle": "",
-            "sectionBody_1": "After creating the final design, I believe I have achieved the goals outlined in the beginning of the design process. I designed a responsive website for Goshen Hair Salon that provides customers with a smooth and easy online booking process. I also restructured much of the content to hopefully better inform users and attract more customers."
+            "sectionBody_1": "With more time, I would like to have done another round of usability tests in order to ensure the usability of the updated book process. Overall, I believed I achieved the goals outlined in the beginning of the design process by creating a site that's easy to use and navigate, that will hopefully attract Goshen Salon more customers."
           }
         ]
       }
