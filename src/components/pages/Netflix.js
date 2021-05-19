@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProjectHeader from "../ProjectHeader";
 import ProjectHero from "../ProjectHero";
 import Footer from "../Footer";
@@ -7,6 +7,9 @@ import projectDataJSON from "../../projectData.json";
 
 function Netflix() {
   const content = projectDataJSON["netflix"];
+  useEffect(() => {
+    document.title = "Netflix Case Study";
+  });
   return (
     <>
       <ProjectHero imgSrc={content["src"]} project={"netflix"} />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProjectHeader from "../ProjectHeader";
 import ProjectHero from "../ProjectHero";
 import Footer from "../Footer";
@@ -8,6 +8,10 @@ import projectDataJSON from "../../projectData.json";
 
 function Goshen() {
   const content = projectDataJSON["goshen"];
+  useEffect(() => {
+    document.title = "Goshen Salon Case Study";
+  });
+
   return (
     <>
       {/* <ScrollIndication /> */}

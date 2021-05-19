@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProjectHeader from "../ProjectHeader";
 import ProjectHero from "../ProjectHero";
 import Footer from "../Footer";
@@ -8,6 +8,9 @@ import Iterations from "../Iterations";
 
 function Peregrine() {
   const content = projectDataJSON["peregrine"];
+  useEffect(() => {
+    document.title = "Peregrine Case Study";
+  });
   return (
     <>
       <ProjectHero imgSrc={content["src"]} project={"peregrine"} />
