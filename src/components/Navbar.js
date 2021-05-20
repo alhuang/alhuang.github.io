@@ -47,7 +47,7 @@ function Navbar(props) {
         <div className="navbar-container">
           <HashLink
             smooth
-            to="/#top"
+            to="/#"
             className="navbar-logo"
             onClick={closeMobileMenu}
           >
@@ -81,7 +81,7 @@ function Navbar(props) {
             <li className="nav-item">
               <HashLink
                 smooth
-                to="/#top"
+                to="/#"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
