@@ -2,9 +2,12 @@ import React from "react";
 import { HashLink } from "react-router-hash-link";
 
 function CardItem(props) {
+  function enlargeBG(e) {
+    console.log(e);
+  }
   return (
     <>
-      <li className="cards__item">
+      <li className="cards__item" onMouseOver={enlargeBG}>
         <HashLink className="cards__item__link" to={props.path}>
           <figure
             className={`cards__item__pic-wrap ${props.proj}`}

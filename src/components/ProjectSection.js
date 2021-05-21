@@ -6,7 +6,7 @@ function ProjectSection(props) {
   return (
     <div className={`project-section ${props.bg}`}>
       <div className="project-section-container">
-        <Fade bottom>
+        <Fade bottom duration={2000} delay={1000}>
           <h3 className={`section-title ${props.proj}-text`}>
             {props.sectionTitle}
           </h3>

@@ -5,6 +5,7 @@ import Footer from "../Footer";
 import Content from "../Content";
 import ScrollIndication from "../ScrollIndication";
 import projectDataJSON from "../../projectData.json";
+import TopofPageButton from "../TopofPageButton";
 
 function Goshen() {
   const content = projectDataJSON["goshen"];
@@ -27,6 +28,7 @@ function Goshen() {
       />
       <Content project="goshen" />
       <Footer />
+      <TopofPageButton path={"/goshen#"} />
     </>
   );
 }

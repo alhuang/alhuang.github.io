@@ -67,10 +67,20 @@ p {
 
 .netflix {
   background: #181818;
+  background: linear-gradient(
+    315deg,
+    rgba(24, 24, 24, 1) 50%,
+    rgba(229, 9, 20, 1) 100%
+  );
 }
 
 .goshen {
   background: #914550;
+  background: linear-gradient(
+    150deg,
+    rgba(145, 69, 80, 1) 0%,
+    rgb(49, 35, 37) 100%
+  );
 }
 
 .peregrine-text {

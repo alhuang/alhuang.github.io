@@ -1,7 +1,7 @@
 {
   "goshen": {
-    "src": "/images/goshen/goshen-mockup.png",
-    "cardImg": "/images/goshen/goshen-mockup.png",
+    "src": "/images/goshen/goshen-mockup1.png",
+    "cardImg": "/images/goshen/goshen-mockup1.png",
     "text": "Goshen Hair Salon",
     "label": "Responsive Web Design",
     "description": "Goshen Hair Salon is a local hair salon in the Seattle metropolitan area. They are a small local business that does not have a lot of time to upkeep their website, leading it to be quite outdated and not optimized for mobile. They are seeking to improve the visibility of their salon through a website redesign with easy user experience in mind. In addition, they are looking to add an online booking feature to their website, so their clients can have full control of setting up their appointments online without the need to make a call.",
@@ -39,7 +39,7 @@
           {
             "sectionTitle": "Building a task flow and user flow",
             "sectionBody_1": "After creating my persona, I started to think about how my user, Alice might use the website to complete certain tasks. I created multiple task flows to understand the actions and pages the user will go through to complete their tasks.",
-            "sectionImageSrc_1": "images/goshen/goshen-taskflow.jpg",
+            "sectionImageSrc_1": "images/goshen/goshen-taskflow.png",
             "sectionBody_2": "Next, I moved on to understand the possible choices Alice may have when navigating through the site. We can see how each of these decision points affect Alice's journey through the site.",
             "sectionImageSrc_2": "images/goshen/goshen-userflow.png"
           }
@@ -112,7 +112,7 @@
             ],
             "sectionIterations_2_col1": [
               {
-                "imgSrc": "images/goshen/goshen-iteration3.png",
+                "imgSrc": "images/goshen/goshen-service-demo.gif",
                 "name": "Reworking Service Selection",
                 "desc": "The services section of the booking process cause a lot of confusion for all of the participants. Their confusion arose when they had to select multiple services across the different sections. After selecting the first service, it wasn't clear that it was selected when adding the second service. While reworking this section, my goals were to make it clear that additional services can be selected, as well as make it clear all the services that have been selected already. I did this by creating an 'Add Another Service' card after making a selection. After selecting that card it will return to the list of services, and the user may select another service. After selecting any service, it will list out all already selected services and allow users to add another service or make any changes."
               }
@@ -132,14 +132,14 @@
     ]
   },
   "netflix": {
-    "src": "images/netflix/netflix-hifi4.png",
-    "cardImg": "images/netflix/netflix-hifi4.png",
+    "src": "images/netflix/netflix-hero.png",
+    "cardImg": "images/netflix/netflix-hero.png",
     "text": "Netflix Watch Party",
     "label": "Adding A New Feature",
     "path": "/netflix#",
     "role": "UI/UX Designer",
     "timeline": "80 hours",
-    "skills": "",
+    "skills": "User Research, Interaction Design, UI Design, Wireframing, Prototyping, Usability Testing",
     "projectDescription": "Lorem ipsum dolor sit amet",
     "projectGoals": "Design a watch party feature that will allow users to join and create watch parties with their friends and families.\nDesign a communications feature that will allow users to chat using text, audio, and video.",
     "content": [
@@ -250,13 +250,13 @@
   },
   "peregrine": {
     "src": "images/peregrine/peregrine-hero.png",
-    "cardImg": "images/peregrine/peregrine-card.png",
+    "cardImg": "images/peregrine/peregrine-hero1.png",
     "text": "Peregrine",
     "label": "Mobile App Design",
     "path": "/peregrine#",
     "role": "UI/UX Designer",
     "timeline": "80 hours",
-    "skills": "Figma",
+    "skills": "User Research, Interaction Design, UI Design, Wireframing, Prototyping, Usability Testing",
     "projectDescription": "Peregrine is a mobile app that makes travel planning easy. With Peregrine, you can search for activities, add them to your trip, and then Peregrine will help create an optimized itinerary based on your preferences. Peregrine makes sure the hard stuff is done for you and keeps you focused on having fun abroad.\n\n<i>This was a concept project made for DesignLab bootcamp.</i>",
     "projectGoals": "Design a mobile application that allows users to browse cities and activities, create trips, and generate itineraries, in addition to designing a cohesive logo and branding.",
     "content": [

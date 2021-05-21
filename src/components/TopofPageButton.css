@@ -1,0 +1,20 @@
+#top-button {
+  position: fixed;
+  bottom: 40px;
+  left: calc((50%) - 30px);
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0 5px 10px rgba(38, 36, 36, 0.25));
+}
+
+.top-button-icon {
+  margin-bottom: 7px;
+  color: white;
+}

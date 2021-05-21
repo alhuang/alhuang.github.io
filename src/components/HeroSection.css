@@ -24,11 +24,12 @@ video {
 }
 
 .hero-container > p {
-  margin-top: 5rem;
+  margin: 5rem 1rem 0 1rem;
   color: rgb(232, 232, 232);
   font-size: 32px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 
 .hero-btns {
@@ -48,6 +49,11 @@ video {
 .hero-icon {
   color: white;
   margin: 2rem 4rem 0 2rem;
+  transition: all 0.2s linear;
+}
+
+.hero-icon:hover {
+  transform: scale(1.2);
 }
 
 .icon {
@@ -68,11 +74,17 @@ video {
   }
 
   .hero-container > p {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .btn-mobile {
     display: block;
     text-decoration: none;
+  }
+
+  .hero-icon {
+    transform: scale(0.8);
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }

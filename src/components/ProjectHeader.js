@@ -5,7 +5,7 @@ import Fade from "react-reveal";
 function ProjectHeader(props) {
   return (
     <div className="project-header">
-      <Fade>
+      <Fade duration={2000} delay={1000}>
         <h1 className="project-title">
           {props.projectTitle}: {props.label}
         </h1>

@@ -3,9 +3,9 @@
 }
 .iteration-item-col1 > img {
   display: block;
-  width: 100%;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem auto;
   filter: drop-shadow(0 10px 15px rgba(116, 116, 116, 0.35));
+  max-height: 625px;
 }
 .iteration-item-col1 > h3 {
   margin-bottom: 0.5rem;
