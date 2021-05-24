@@ -4,7 +4,7 @@
     "cardImg": "/images/goshen/goshen-mockup1.png",
     "text": "Goshen Hair Salon",
     "label": "Responsive Web Design",
-    "description": "Goshen Hair Salon is a local hair salon in the Seattle metropolitan area. They are a small local business that does not have a lot of time to upkeep their website, leading it to be quite outdated and not optimized for mobile. They are seeking to improve the visibility of their salon through a website redesign with easy user experience in mind. In addition, they are looking to add an online booking feature to their website, so their clients can have full control of setting up their appointments online without the need to make a call.",
+    "description": "Goshen Hair Salon is a local hair salon in the Seattle metropolitan area. They are a small local business that does not have a lot of time to upkeep their website, leading it to be quite outdated and not optimized for mobile. They are seeking to improve the visibility of their salon through a website redesign with easy user experience in mind. In addition, they are looking to add an online booking feature to their website, so their clients can have full control of setting up their appointments online without the need to make a call.\n\n<i>This was a concept project made for DesignLab bootcamp.</i>",
     "path": "/goshen#",
     "role": "UI/UX Designer",
     "timeline": "80 hours",
@@ -75,7 +75,7 @@
           },
           {
             "sectionTitle": "Hi-fi Designs",
-            "sectionBody_1": "Mext, it's time to put everything together and create some hi-fi designs.",
+            "sectionBody_1": "Next, it's time to put everything together and create some hi-fi designs.",
             "sectionImageSrc_1": "images/goshen/goshen-hifi.png"
           }
         ]
@@ -140,7 +140,7 @@
     "role": "UI/UX Designer",
     "timeline": "80 hours",
     "skills": "User Research, Interaction Design, UI Design, Wireframing, Prototyping, Usability Testing",
-    "projectDescription": "Lorem ipsum dolor sit amet",
+    "description": "Due to the COVID-19 pandemic and the need for social distancing, more and more users are connecting with each other virtually. Additionally, many people have started to turn to streaming applications, like Netflix, for entertainment as they isolate themselves at home. Netflix saw this as a great opportunity to connect their users by combining these online hangouts with their streaming service by designing a watch party feature.\n\n<i>This was a concept project made for DesignLab bootcamp.</i>",
     "projectGoals": "Design a watch party feature that will allow users to join and create watch parties with their friends and families.\nDesign a communications feature that will allow users to chat using text, audio, and video.",
     "content": [
       {
@@ -148,12 +148,20 @@
         "sections": [
           {
             "sectionTitle": "Competitive Analysis",
-            "sectionBody_1": "Before beginning this project, I already knew there were some web extensions that helped users host watch parties, but after some research I found that some of the other big streaming services have recently implemented a watch party feature. Thus, I conducted a competitive analysis amongst the various streaming services, as well as the web extensions, in order to identify the strengths and weaknesses between each of the services, which will later help inform my design decisions. My findings can be seen below.",
+            "sectionBody_1": "Before beginning this project, I already knew there were some web extensions that helped users host watch parties, and after some research I found that some of the other big streaming services have also recently implemented a watch party feature. Thus, I conducted a competitive analysis amongst the various streaming services, as well as the web extensions, in order to identify the strengths and weaknesses between each of the services, which will later help inform my design decisions. My findings can be seen below.",
             "sectionImageSrc_1": "images/netflix/netflix-competitive-analysis.png"
           },
           {
             "sectionTitle": "User Interviews",
-            "sectionBody_1": "In order to understand how users would be using a watch party feature, I conducted some user interviews in order to identify motivations for having watch parties and any frustrations they experience. The participants were all in their mid-twenties, and they all did some kind of online watch party a few times a month. Here were my key findings:"
+            "sectionBody_1": "In order to understand how users would be using a watch party feature, I conducted some user interviews in order to learn about users' experiences with these kinds of services. I also wanted to learn more about their motivations for having watch parties and any frustrations they experience. I gathered 3 participants, all in their mid-twenties, and they each participated in some kind of online watch party at least a few times a month.\nHere were my key findings:",
+            "sectionBullets_1": [
+              "All participants held watch parties because they weren't physically able to be together with people due to them living far apart or due to the pandemic",
+              "Each participant had their own method of doing a watch party: one participant simply counted down over the phone to start the stream synchronously, another used the Teleparty Chrome extension, and third participant shared their screen while streaming over Discord",
+              "All participants used an additional device or application in order to interact with the other watchers (e.g. video chatting on their phones, Discord voice chat, etc.)",
+              "Each participant shared frustrations with juggling between applications and devices in order to interact with the other viewers and wished it could all be handled from a single place",
+              "It was important to each participant that their stream was synchronized with the other viewers",
+              "One participant expressed frustration with the Teleparty layout, which did have a text feature, but it took up a third of the screen"
+            ]
           }
         ]
       },
@@ -162,12 +170,12 @@
         "sections": [
           {
             "sectionTitle": "Persona",
-            "sectionBody_1": "Based on the data I got from the research phase, I created a persona, Mark Wardell, to represent a part of our target users.",
+            "sectionBody_1": "After synthesizing the data I got from the research phase, I created a persona, Mark Wardell, to represent a part of our target users. Mark Wardell is a young adult professional that wants to stay in touch with his old friends and family who are now living in various areas across the country.",
             "sectionImageSrc_1": "images/netflix/netflix-persona.png"
           },
           {
             "sectionTitle": "Building a task flow and user flow",
-            "sectionBody_1": "After creating my persona, I moved on to creating task flows and user flows. I focused mainly on the tasks of setting up and joining the watch party. As a user that wants to use the watch party feature, they will have to frequently go through these steps, so mapping out each of these flows will help me create a frictionless experience for the users.",
+            "sectionBody_1": "Next, I created some task flows and user flows. I focused mainly on the tasks of setting up and joining the watch party. As a user that wants to use the watch party feature, they will have to frequently go through these steps, so mapping out each of these flows will help me create a frictionless experience for the users.",
             "sectionImageSrc_1": "images/netflix/netflix-flows.png"
           }
         ]
@@ -177,7 +185,7 @@
         "sections": [
           {
             "sectionTitle": "Wireframes",
-            "sectionBody_1": "Moving on to the design phase, I created some low-fidelity wireframes for desktop because Netflix wants to experiment with this feature on their desktop site first before moving on to their mobile app and TV apps. My goal for the design was to make it easy and simply to setup a watch party. I began by adding a watch party icon next to the play button of a show or movie to begin setting up a watch party. Upon clicking the watch party icon, it will bring you to the next screen where you have some options you can set for the watch party. After creating the watch party, you will be prompted with a URL to share with your friends. With a URL, it will be extremely easy for a user to join a watch party as all they have to do is access the URL and they will automatically be placed into the watch party. I chose to keep the chat small and off to the side, so that users can keep it open while watching the stream, and it won't take up too much space. Users may also minimize the chat if they find it distracting. Because participants from the user interviews expressed frustration of having to use separate devices or applications for video/audio calling, I integrated those features as part of the watch party experience.",
+            "sectionBody_1": "Moving on to the design phase, I created some low-fidelity wireframes for desktop because Netflix wanted to experiment with this feature on their desktop site first before moving on to their mobile app and TV apps. My goal for the design was to make it easy and simple to setup a watch party. I began by adding a watch party icon next to the play button of a show or movie to begin setting up a watch party. Upon clicking the watch party icon, it will bring you to the next screen where you have a few options you can set for the watch party. After creating the watch party, you will be prompted with a URL to share with your friends. With a URL, it will be extremely easy for a user to join a watch party as all they have to do is access the URL and they will automatically be placed into the watch party. I integrated some text, audio, and video chatting features because they are an important part to the watch party experience based on the user interviews. In addition, incorporating these features together will alleviate some frustrationg users have juggling between many applications and device. I made sure the chat window had the ability to minimized in case users found it distracting or bothersome.",
             "sectionImageSrc_1": "images/netflix/netflix-wireframe1.png",
             "sectionImageSrc_2": "images/netflix/netflix-wireframe2.png",
             "sectionImageSrc_3": "images/netflix/netflix-wireframe3.png"
@@ -238,7 +246,7 @@
         ]
       },
       {
-        "stepTitle": "Next Steps",
+        "stepTitle": "Final Thoughts",
         "sections": [
           {
             "sectionTitle": "",
@@ -369,11 +377,11 @@
         ]
       },
       {
-        "stepTitle": "Next Steps",
+        "stepTitle": "Final Thoughts",
         "sections": [
           {
             "sectionTitle": "",
-            "sectionBody_1": "In conclusion, I think my design for Peregrine will serve as a great base for the app. The application achieves its main goal of creating an optimized itinerary for its users; however, there is still much to explore with the app. Some additional features that I would like to explore in the future is the ability to automatically add activities for the user using prior trips as metrics or some parameters in order to select activities that the user would enjoy. A feature like this would further cut down and simplify trip planning."
+            "sectionBody_1": "In conclusion, I think my design will serve as a great foundation for the app. The app achieves its main goal of saving users time by creating an optimized itinerary for them; however, there is still much to explore with the app. Some additional features that I would like to explore in the future is the ability to automatically add activities for the user using prior trips as metrics or some parameters in order to select activities that the user would enjoy. A feature like this would even further cut down and simplify trip planning."
           }
         ]
       }
