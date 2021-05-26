@@ -1,4 +1,9 @@
 {
+  "about": {
+    "img": "/itsame.png",
+    "title": "Hi, I'm Andrew",
+    "desc": "I'm a UX designer and software engineer based in the Seattle area. Before my experience in design, I worked as a software engineer at a tech company. In working closely with the QA team, I spent most of my time researching and identifying problems with their testing process before moving forward and developing a solution. My experience there has led me to a deep interest in UX as a means to help bridge the gap between people and technology. Now, I strive to leverage my engineering and UX background together to create meaningful products and experiences for people.\n\nIn my free time, you can find me out and about rock climbing and exploring new restaurants, or inside streaming shows and playing video games."
+  },
   "goshen": {
     "src": "/images/goshen/goshen-mockup1.png",
     "cardImg": "/images/goshen/goshen-mockup1.png",

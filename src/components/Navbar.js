@@ -98,6 +98,17 @@ function Navbar(props) {
                 Design Projects
               </HashLink>
             </li>
+            <li className="nav-item">
+              <HashLink
+                smooth
+                to="/#about-section"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                About
+              </HashLink>
+            </li>
+
             {/* <li className="nav-item">
               <Link
                 to="/developer-work"

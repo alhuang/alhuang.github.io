@@ -3,6 +3,7 @@ import HeroSection from "../HeroSection";
 import React, { useEffect } from "react";
 import Cards from "../Cards";
 import Footer from "../Footer";
+import About from "./About";
 
 function Home() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function Home() {
       <HeroSection />
       <Cards />
       {/* <Cards /> */}
+      <About />
       <Footer />
     </>
   );

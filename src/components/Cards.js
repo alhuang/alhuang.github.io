@@ -10,7 +10,7 @@ function Cards() {
   return (
     <div className="cards" id="cards-section">
       <Fade duration={2000} delay={1000}>
-        <h1>Design Projects</h1>
+        <h1 className="cards-header">Design Projects</h1>
         <div className="cards__container">
           <div className="cards__wrapper">
             <ul className="cards__items">

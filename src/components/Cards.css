@@ -1,9 +1,9 @@
 .cards {
-  padding: 4rem;
+  padding: 6rem 3rem 3rem 3rem;
   background: #fff;
 }
 
-h1 {
+.cards-header {
   text-align: center;
 }
 
@@ -12,7 +12,6 @@ h1 {
   flex-flow: column;
   align-items: center;
   max-width: 1260px;
-  width: 90%;
   margin: 0 auto;
 }
 
@@ -129,5 +128,11 @@ h1 {
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cards {
+    padding: 1rem;
   }
 }

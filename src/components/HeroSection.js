@@ -9,7 +9,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/bgvideo_1.mp4" autoPlay loop muted />
+      <video src="/bgvideo_1.mp4" autoPlay playsinline loop muted />
       <h1>Andrew Huang</h1>
       <p>Software Engineer and UX Designer based in Seattle</p>
       <div className="hero-btns">
